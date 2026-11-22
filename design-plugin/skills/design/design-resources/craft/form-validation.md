@@ -183,7 +183,7 @@ transactional forms:
 
 - **3.3.3 Error Suggestion (AA):** when the fix is determinable, suggest it in text. Adaptive errors satisfy this. "Date must be MM/DD/YYYY. You entered 5-3-26. Did you mean 05/03/2026?"
 - **3.3.4 Error Prevention — Legal, Financial, Data (AA):** for any submission with legal / financial / data-modifying consequence, provide one of: reversibility, server-side check + correction step, or a confirm-summary screen before commit.
-- **3.3.8 Accessible Authentication (AA, WCAG 2.2):** auth steps must not require a cognitive function test (remember a password, transcribe a code, recognize images) without an alternative. CAPTCHAs are the canonical thing this SC restricts; only object-recognition or personal-content variants escape via the narrow exceptions, and not all CAPTCHAs do. Practical floor: never block paste on password / verification-code fields, support password managers, accept verification-code paste from a clipboard.
+- **3.3.8 Accessible Authentication (AA, WCAG 2.2):** auth steps must not require a cognitive function test (remember a password, transcribe a code, recognize images) without an alternative. Human-verification challenges are the canonical thing this SC restricts; only object-recognition or personal-content variants escape via the narrow exceptions, and not all such challenges do. Practical floor: never block paste on password / verification-code fields, support password managers, accept verification-code paste from a clipboard.
 - **3.3.9 Accessible Authentication, No Exception (AAA):** removes even the object-recognition / personal-content exceptions. Aspirational; flag if a project commits to it.
 
 ## Native mobile parity
